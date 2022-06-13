@@ -1,1 +1,81 @@
 /* Write your CSS here! */
+
+body {
+    background-color: #eee2dc;
+    margin: 8px;
+    display: block;
+}
+  
+  /*img {
+    width: 25%;
+    height: 25%;
+  }
+  */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+  
+#mainHeading {
+    color: red;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    padding: 500%;
+}
+  
+.body {
+    text-align: center;
+}
+  
+main {
+    margin:5%;
+}
+  
+article {
+    margin: 5%;
+}
+  
+footer {
+    padding: 5%;
+}
+  
+p {
+    font-family:'Times New Roman', Times, serif;
+    padding: 5%;
+}
+  
+a {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+  /*Necessary for cascading aspect of CSS, needs to be in this very specific order*/
+a:link { color: blue;}
+a:visited {color: red;}
+a:hover {color: green;}
+a:active {color: pink;}
+  
+li {
+    color: blue;
+}
+  
+hr {
+    /*size style color*/
+    height: 4px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5%;
+}
+
+#contactLinks {
+    padding: 5%;
+}
+
+.funParagraph {
+    color: green;
+}
